@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-sinfe",
+  "version": "1.0.0",
+  "description": "is a self eslint config ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "sinfe",
+    "eslint"
+  ],
+  "author": "xiangxinji",
+  "license": "ISC"
+}
