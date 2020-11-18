@@ -68,13 +68,13 @@ module.exports = {
     'no-unmodified-loop-condition' : 2 ,
     'no-unused-labels' : 2 ,
     'no-useless-call' : 2 ,
-    'no-useless-return' : 2 ,
+    'no-useless-return' : 0 ,
     'no-void' : 2 ,
     'no-with' : 2 ,
     'no-floating-decimal' : 1 ,
     'no-implicit-coercion' : 1,
     'no-loop-func'  : 1 ,
-    'no-multi-spaces' : 1 ,
+    'no-multi-spaces' : 2 ,
     'no-multi-str' : 1 ,
     'no-new-wrappers' : 1 ,
     'no-octal' : 1 ,
@@ -109,4 +109,44 @@ module.exports = {
     'require-await' : 0 ,
     'require-unicode-regexp' : 0 ,
     'vars-on-top' : 0 ,
+    // stylistic
+
+    'array-bracket-newline' : 0 ,
+    'array-bracket-spacing' :  0 ,
+    'array-element-newline' : 0 ,
+    'block-spacing' : [2 ,"always"] ,
+    'brace-style' : [2 , "1tbs"] ,
+    'camelcase' : 0 ,
+    'capitalized-comments' : 0 ,
+    'comma-dangle' : [
+        2 , {
+            arrays : "always" ,
+            objects : "always" ,
+            imports : "never" ,
+            functions : "never"
+        }
+    ],
+    'comma-spacing' : [
+        2 , {
+            after : true ,
+            before : false
+        }
+    ],
+    'computed-property-spacing' : 0 ,
+    'consistent-this' : [2 , 'self'] ,
+    'eol-last' : 0 ,
+    'func-call-spacing' : [2 , 'never'] ,
+    'func-name-matching' : 0 ,
+    'func-names' : 0 ,
+    'func-style' : 0 ,
+    'indent' : [2 , 2 , { SwitchCase : 1 }] ,
+    'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
+    'keyword-spacing' : [2 , { before : false , after : true } ] ,
+    'line-comment-position' : 0 ,
+    'linebreak-style' : [2 , "unix"] ,  // \n
+    'lines-between-class-members' : 0 ,
+    'max-len' : [2 , 200] ,
+    'max-lines' : [2 , 10000] ,
+    'new-parens' :[2 , "always"] ,
+
 }
