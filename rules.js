@@ -2,7 +2,7 @@
 
 module.exports = {
     // poossible
-    'require-atomic-updates' : 2 ,
+    'require-atomic-updates' : 0 ,
     'no-compare-neg-zero' : 2 ,
     'no-cond-assign' : 0 ,
     'no-constant-condition' : 2 ,
